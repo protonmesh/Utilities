@@ -1,7 +1,10 @@
 # URLsToShortcuts
 # Conceived for batch subscribing to iTunes Podcasts (if multiple links are dragged into iTunes, it subscribes to them all)
 # Input: filename - name of text file containing URLs (one per line)
-# Output: for each URL, a .url Internet Shortcut is added to the current working directory
+# Output: for nth URL, the n.url Internet Shortcut file is added to the current working directory
+#
+# Usage: python URLsToShortcuts.py <filename>
+# Ex: python URLsToShortcuts.py urls.txt
 
 import sys
 
